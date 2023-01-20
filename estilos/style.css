@@ -1,2 +1,50 @@
 @charset "UTF-8";
 
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: rgba(128, 0, 128, 0.562);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section#login>div#img{
+    background:rgba(128, 0, 128, 0.616) url(../imagens/pexels-guillaume-meurice-2529179.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    display: block;
+    
+}
+
+section#login>div#formulario{
+    display: block;
+}
+
+section#login{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: white;
+width:250px;
+height: 500px;
+border-radius: 20px;
+overflow: hidden;
+box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.664);
+
+}
+
